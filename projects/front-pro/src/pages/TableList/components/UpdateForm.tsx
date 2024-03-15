@@ -10,7 +10,7 @@ import {
 import { FormattedMessage, useIntl } from '@umijs/max';
 import { Modal } from 'antd';
 import React from 'react';
-import { ShowValue } from '@bomon/th-components'
+import { ShowValue,ShowOtherValue } from '@bomon/th-components/debugger'
 
 export type FormValueType = {
   target?: string;
@@ -66,8 +66,8 @@ const UpdateForm: React.FC<UpdateFormProps> = (props) => {
           defaultMessage: '基本信息',
         })}
       >
-        <ProFormItem label='ShowValue' name='name'>
-          <ShowValue />
+        <ProFormItem label='ShowValue' name='wei'>
+          <ShowOtherValue watch='desc' />
         </ProFormItem>
         <ProFormText
           name="name"

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "front":"pnpm -F front-pro start"
+    "front":"pnpm -F front-pro start",
+    "editor":"pnpm -F th-editor dev",
+    "editor:tauri":"pnpm -F th-editor tauri dev"
   },
   "keywords": [],
   "author": "",

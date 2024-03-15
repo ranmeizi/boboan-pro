@@ -1,6 +1,6 @@
 {
   "name": "@bomon/th-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "table helper components",
   "type": "module",
   "main": "src/index.tsx",
@@ -10,16 +10,18 @@
   "keywords": [],
   "author": "boboan",
   "license": "ISC",
-  "peerDependencies":{
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+  "peerDependencies": {
+    "@ant-design/pro-components": "^2.6.48",
     "lodash": "^4.17.21",
-    "@ant-design/pro-components": "^2.6.48"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "devDependencies":{
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+  "devDependencies": {
+    "@ant-design/pro-components": "^2.6.48",
+    "@types/lodash": "^4.14.202",
+    "@types/react": "^18.2.64",
     "lodash": "^4.17.21",
-    "@ant-design/pro-components": "^2.6.48"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

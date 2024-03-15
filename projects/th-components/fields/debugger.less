@@ -1,0 +1,22 @@
+.boboan-pro__debugger-wrap{
+    position: relative;
+
+    &::after{
+        content: ' ';
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 2px solid salmon;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    &:hover{
+        &::after{
+            opacity: 1;
+        }
+    }
+}
